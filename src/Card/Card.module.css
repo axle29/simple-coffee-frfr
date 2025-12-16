@@ -1,0 +1,63 @@
+.cardContainer{
+    height: 250px;
+    width: 300px;
+    border-radius: 10px;
+}
+.img{
+    border-radius: 10px;
+    height: 180px;
+}
+.test p{
+    padding: 2px 5px 5px 0px;
+    font-size: 0.825rem;
+    font-weight: 600;
+    color: #302522;
+    transform: rotate(-45deg);
+}
+.test{
+    background-color: #F6C768;
+    height: 70px;
+    width: 75px;
+    border-radius: 10px;
+    clip-path: polygon(36% 0, 90% 0, 0 90%, 0 36%);
+
+}
+.words{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+    margin-top: 10px;
+}
+.idkman{
+    display: flex;
+    justify-content: space-between;
+}
+.name{
+    color: #FEF7EE;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #BEE3CC;
+    border-radius: 3px;
+    font-size: 0.75rem;
+    width: 45px;
+    height: 23px;
+}
+.rating{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: #FEF7EE;
+}
+.votes{
+    color: #6F757C;
+}
+.imgStar:hover{
+    cursor: pointer;
+
+}

@@ -1,0 +1,12 @@
+img {
+  position: fixed;          /* stays in place */
+  top: 50%;                 /* bottom half */
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background-image: url("bg.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index: -1;              /* behind everything */
+  pointer-events: none;     /* NO interaction */
+}
